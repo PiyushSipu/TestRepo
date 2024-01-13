@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-13T14:50:33 IST" name="Suite" finished-at="2024-01-13T14:50:33 IST" duration-ms="108">
+    <groups>
+    </groups>
+    <test started-at="2024-01-13T14:50:33 IST" name="Test" finished-at="2024-01-13T14:50:33 IST" duration-ms="108">
+      <class name="package1.HMS1Test">
+        <test-method signature="HMS1()[pri:0, instance:package1.HMS1Test@6574a52c]" started-at="2024-01-13T14:50:33 IST" name="HMS1" finished-at="2024-01-13T14:50:33 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HMS1 -->
+      </class> <!-- package1.HMS1Test -->
+      <class name="package1.ParameterCheck">
+        <test-method signature="parameterInsertion()[pri:0, instance:package1.ParameterCheck@644baf4a]" started-at="2024-01-13T14:50:33 IST" name="parameterInsertion" finished-at="2024-01-13T14:50:33 IST" duration-ms="21" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equals(Object)" because "BROWSER" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "BROWSER" is null
+at package1.ParameterCheck.parameterInsertion(ParameterCheck.java:16)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterInsertion -->
+      </class> <!-- package1.ParameterCheck -->
+      <class name="package1.HMS2Test">
+        <test-method signature="HMS2()[pri:0, instance:package1.HMS2Test@7526515b]" started-at="2024-01-13T14:50:33 IST" name="HMS2" finished-at="2024-01-13T14:50:33 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HMS2 -->
+      </class> <!-- package1.HMS2Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
